@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        #div1{
+            width: 400px;
+            height: 200px;
+            background: #ccc;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            overflow: hidden;
+            -ms-transform: translate(-50%,-50%);
+            -moz-transform: translate(-50%,-50%);
+            -o-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+        }
+        .circle{
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            background:#fc0;
+        }
+        .first-circle{
+            left: -50px;
+            top: -50px;
+        }
+        .second-circle{
+            right: -50px;
+            bottom: -50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">
+        <div class="first-circle circle"></div>
+        <div class="second-circle circle"></div>
+    </div>
+</body>
+</html>
