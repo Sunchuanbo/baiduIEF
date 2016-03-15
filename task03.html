@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task03</title>
+    <style>
+        /*div{*/
+            /*box-sizing: border-box;*/
+        /*}*/
+        * { box-sizing:border-box;}
+        #main,#left,#right,#middle {
+            padding: 20px;
+            border: 1px solid #999;
+        }
+        #main{
+            height:100%;
+            overflow:hidden;
+            background: #eeeeee;
+        }
+        #left {
+            background-color: white;
+            width: 200px;
+            float: left;
+        }
+        .teamlogo{
+            width: 80px;
+            height: 80px;
+            float: left;
+        }
+        .teamname{
+            display: inline-block;
+            font-size: 15px;
+            font-weight: 700;
+            float: left;
+            padding-left:10px;
+        }
+        #right{
+            width: 120px;
+            float: right;
+            background-color: #fff;
+        }
+        .personallogo{
+            margin: 5px 0;
+            width: 80px;
+            height: 80px;
+            border:1px solid #999;
+        }
+        #middle{
+            margin: 0px 140px 0px 220px;
+            background-color: #fff;
+            min-width:100px;
+        }
+        #middle p{
+            /*word-wrap: break-word;*/
+            word-break:break-all;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="left">
+            <img class="teamlogo" src="img/myPhoto.jpg" alt="">
+            <div class="teamname"><h3>打boss</h3></div>
+        </div>
+        <div id="right">
+            <img class="personallogo" src="img/myPhoto.jpg" alt="">
+            <img class="personallogo" src="img/myPhoto.jpg" alt="">
+            <img class="personallogo" src="img/myPhoto.jpg" alt="">
+            <img class="personallogo" src="img/myPhoto.jpg" alt="">
+            <img class="personallogo" src="img/myPhoto.jpg" alt="">
+        </div>
+        <div id="middle">
+            <h3>升级打BOSS</h3>
+            <p>天天学前端，天天学前端，天天学前端，天天学前端，天天学前端，天天学前端，worddddddddddddddddddddddd天天学前端，<br/>换行了</p>
+            <p>天天学前端，天天学前端，天天学前端，天天学前端，天天学前端，天天学前端，天天学前端，换行了<br/>天天学前端，天天学前端，<a href="http://ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a>天天学前端，天天学前端，<strong>这里是粗体的学前端</strong>天天学前端，天天学前端，天天学前端，天天学前端，天天学前端，天天学前端，天天学前端，天天学前端，天天学前端，天天学前端。</p>        </div>
+    </div>
+
+</body>
+</html>
